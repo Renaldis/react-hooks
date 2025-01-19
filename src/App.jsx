@@ -1,4 +1,7 @@
 import WithUseCallback from "./hooks/useCallback/WithUseCallback";
+import UseEffectCounterOne from "./hooks/useEffect/useEffectCounterOne";
+import UseEffectMouse from "./hooks/useEffect/UseEffectMouse";
+import UseEffectMouseContainer from "./hooks/useEffect/UseEffectMouseContainer";
 import Counter from "./hooks/useMemo/Counter";
 import FocusInput from "./hooks/useRef/FocusInput";
 import HookTimer from "./hooks/useRef/HookTimer";
@@ -13,7 +16,10 @@ function App() {
       {/* <UseStateCounter /> */}
       {/* <UseStateCounterTwo /> */}
       {/* <UseStateCounterThree /> */}
-      <UseStateCounterFour />
+      {/* <UseStateCounterFour /> */}
+      {/* <UseEffectCounterOne /> */}
+      {/* <UseEffectMouse /> */}
+      <UseEffectMouseContainer />
       {/* <WithUseCallback /> */}
       {/* <Counter /> */}
       {/* <FocusInput /> */}
