@@ -11,6 +11,7 @@ import UseStateCounter from "./hooks/useState/UseStateCounter";
 import UseStateCounterFour from "./hooks/useState/UseStateCounterFour";
 import UseStateCounterThree from "./hooks/useState/UseStateCounterThree";
 import UseStateCounterTwo from "./hooks/useState/UseStateCounterTwo";
+import Apps from "./hooks/useContext/Apps";
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
       {/* <UseEffectMouse /> */}
       {/* <UseEffectMouseContainer /> */}
       {/* <UseEffectIntervalCounter /> */}
-      <DataFetching />
+      {/* <DataFetching /> */}
+      <Apps />
       {/* <WithUseCallback /> */}
       {/* <Counter /> */}
       {/* <FocusInput /> */}
