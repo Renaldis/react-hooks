@@ -1,4 +1,5 @@
 import WithUseCallback from "./hooks/useCallback/WithUseCallback";
+import DataFetching from "./hooks/useEffect/DataFetching";
 import UseEffectCounterOne from "./hooks/useEffect/useEffectCounterOne";
 import UseEffectIntervalCounter from "./hooks/useEffect/UseEffectIntervalCounter";
 import UseEffectMouse from "./hooks/useEffect/UseEffectMouse";
@@ -21,7 +22,8 @@ function App() {
       {/* <UseEffectCounterOne /> */}
       {/* <UseEffectMouse /> */}
       {/* <UseEffectMouseContainer /> */}
-      <UseEffectIntervalCounter />
+      {/* <UseEffectIntervalCounter /> */}
+      <DataFetching />
       {/* <WithUseCallback /> */}
       {/* <Counter /> */}
       {/* <FocusInput /> */}
