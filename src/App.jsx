@@ -17,6 +17,8 @@ import CounterOneSimpleState from "./hooks/useReducer/CounterOneSimpleState";
 import CounterTwoComplex from "./hooks/useReducer/CounterTwoComplex";
 import CounterThreeMultiple from "./hooks/useReducer/CounterThreeMultipleUseReducer";
 import Apps from "./hooks/useReducer/withContextApi/Apps";
+import DataFetchingOne from "./hooks/useReducer/dataFetching/DataFetchingOne";
+import DataFetchingTwo from "./hooks/useReducer/dataFetching/DataFetchingTwo";
 
 function App() {
   return (
@@ -35,7 +37,9 @@ function App() {
       {/* {<CounterOneSimpleState />} */}
       {/* {<CounterTwoComplex />} */}
       {/* <CounterThreeMultiple /> */}
-      <Apps />
+      {/* <Apps /> */}
+      {/* <DataFetchingOne /> */}
+      <DataFetchingTwo />
       {/* <WithUseCallback /> */}
       {/* <Counter /> */}
       {/* <FocusInput /> */}
