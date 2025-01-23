@@ -11,10 +11,12 @@ import UseStateCounter from "./hooks/useState/UseStateCounter";
 import UseStateCounterFour from "./hooks/useState/UseStateCounterFour";
 import UseStateCounterThree from "./hooks/useState/UseStateCounterThree";
 import UseStateCounterTwo from "./hooks/useState/UseStateCounterTwo";
-import Apps from "./hooks/useContext/Apps";
+// import Apps from "./hooks/useContext/Apps";
 import Wschool from "./hooks/useReducer/wschool";
 import CounterOneSimpleState from "./hooks/useReducer/CounterOneSimpleState";
 import CounterTwoComplex from "./hooks/useReducer/CounterTwoComplex";
+import CounterThreeMultiple from "./hooks/useReducer/CounterThreeMultipleUseReducer";
+import Apps from "./hooks/useReducer/withContextApi/Apps";
 
 function App() {
   return (
@@ -31,7 +33,9 @@ function App() {
       {/* <Apps /> */}
       {/* <Wschool /> */}
       {/* {<CounterOneSimpleState />} */}
-      {<CounterTwoComplex />}
+      {/* {<CounterTwoComplex />} */}
+      {/* <CounterThreeMultiple /> */}
+      <Apps />
       {/* <WithUseCallback /> */}
       {/* <Counter /> */}
       {/* <FocusInput /> */}
